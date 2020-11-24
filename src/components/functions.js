@@ -37,4 +37,4 @@ const createMinedBoard = (rows, colums, minesAmount) => {
     return board
 }
 
-export { createMinesBoard }
+export { createMinedBoard }
