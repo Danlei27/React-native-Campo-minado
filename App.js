@@ -12,6 +12,11 @@ export default class App extends Component {
           {params.getRowsAmount()}x{params.getColumnsAmount()}
         </Text>
         <Field></Field>
+        <Field opened ></Field>
+        <Field opened nearMines={1}></Field>
+        <Field opened nearMines={2}></Field>
+        <Field opened nearMines={3}></Field>
+        <Field opened nearMines={7}></Field>
       </View>
     )
   }
